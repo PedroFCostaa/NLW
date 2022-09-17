@@ -124,11 +124,11 @@ header div {
 }
 
 main section {
-    animation: fromBottom .7s .3s backwards;
+    animation: fromSide .7s .3s backwards;
 }
 
 main section:nth-child(1) {
-    animation-delay: 0s;
+    animation-delay: .2s;
 }
 
 main section:nth-child(2) {
@@ -151,7 +151,7 @@ main section:nth-child(3) {
     }
 }
 
-@keyframes fromBottom {
+@keyframes fromSide {
     from {
         opacity: 0;
         transform: translateX(-30px);
